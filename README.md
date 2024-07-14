@@ -1,2 +1,10 @@
-# Ascii-Renderer
-A ascii renderer written in cpp, using open cv for image processing. (Work in progress)
+Assumes OpenCV is installed. To build and run:
+
+```
+mkdir build
+cd build
+cmake ..
+make install
+./main <filename>
+```
+where `<filename>` is a file in the `data` folder.
